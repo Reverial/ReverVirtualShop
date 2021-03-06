@@ -1,0 +1,222 @@
+#*****************************************************************************************#
+#     ____   ____ __         __                __    _________ __                         #
+#     \   \_/   /|__|_______/  |_ __ _______  |  |  /   _____/|  |__   ____ ______        #
+#      \       / |  \_  __ \   __\  |  \__  \ |  |  \_____  \ |  |  \ /  _ \\  __ \       #
+#       \     /  |  ||  | \/|  | |  |  // __ \|  |__/        \|   |  (  |_| )  |_| |      #
+#        \___/   |__||__|   |__| |____/(______/____/_________/|___|__/\____/|   __/       #
+#                                                                           |__|          #
+#     *****************************************************************************       #
+#                                                                                         #
+#                                 VirtualShop - from Pikod                                #
+#                             https://wwww.youtube.com/c/pikod                            #
+#                                                                                         #
+#                   If you want to remove the lore, delete from config.                   #
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# ------------------
+#      MESSAGES     
+# ------------------
+closedSell: '&cBu e?yadan satamazs?n.'
+closedBuy: '&cBu e?yadan alamazs?n.'
+writeBuyAmount: '&aKa? tane almak istiyorsun? &aE?er iptal etmek istiyorsan &7"iptal" &ayazabilirsin.'
+writeSellAmount: '&aKa? tane satmak istiyorsun? &aE?er iptal etmek istiyorsan &7"iptal" &ayazabilirsin. (T?m?n? satmak i?in,  &7"all" &ayazabilirsin.)'
+incorrectNumber: '&cHatal? bir say? girdin.'
+successBuy: '&2{ITEM} &aadl? e?yadan &2{MONEY} &afiyat?na &2{STACK} &atane sat?n ald?n.'
+successSell: '&2{ITEM} &aadl? e?yadan &2{MONEY} &afiyat?na &2{STACK} &atane satt?n.'
+notEnoughMoney: '&cBu e?yay? almak i?in yeterli paraya sahip de?ilsin.'
+notEnoughItem: '&cSatmak istedi?in e?yaya sahip de?ilsin.'
+noSellableItem: '&cEnvanterinde sat?labilir hi? e?ya yok.'
+emptyHand: '&cElinde bir ?ey tutmal?s?n.'
+dontSellable: '&cElinde ki ?ey sat?labilir de?il.'
+noPermission: '&cGerekli yetkilere sahip de?ilsin!'
+noPermissionCategory: '&cBuray? kullanmak i?in VIP olmal?s?n.'
+noConsole: '&cBu komudu konsoldan kullanamazs?n.'
+correctUsage: '&cDo?ru kullan?m: &f{USAGE}'
+cancelKeyword: 'iptal'
+nullKeyword: 'Yok'
+
+# ------------------------
+#  ADMIN PANEL - MESSAGES 
+# ------------------------
+
+successReloaded: '&9VirtualShop &8&l? &eEklenti yeniden ba?lat?ld?!'
+newUpdates: '&9VirtualShop &8&l? &cG?ncellemeler bulundu! G?ncellemeyi indirin: &7https://www.spigotmc.org/resources/74496'
+cannotBeAddItem: '&9VirtualShop &8&l? &cBuraya e?ya ekleyemezsin!'
+successRemoved: '&9VirtualShop &8&l? &aBa?ar?yla kald?r?ld?!'
+writeNewBuyCost: '&9VirtualShop &8&l? &aL?tfen yeni al?? de?erini girin! E?er almay? kapatmak isterseniz "0" yazabilirsiniz. ?ptal etmek i?in "iptal" yaz?n.'
+writeNewSellCost: '&9VirtualShop &8&l? &aL?tfen yeni sat?? de?erini girin! E?er sat??? kapatmak isterseniz "0" yazabilirsiniz. ?ptal etmek i?in "iptal" yaz?n.'
+writePermission: '&9VirtualShop &8&l? &aL?tfen yetkiyi yaz?n. ?ptal etmek i?in &7"iptal"&a, yetkisiz hale getirmek i?in &7"yok" &ayaz?n. '
+invalidNumber: '&9VirtualShop &8&l? &cHatal? bir say? girdiniz. Tekrar deneyin veya "iptal" yazarak vazge?in.'
+assigned: '&9VirtualShop &8&l? &aDe?er ba?ar?yla de?i?tirildi!'
+cancelled: '&9VirtualShop &8&l? &cVazge?tiniz!'
+cancelKeywordAdmin: 'iptal'
+
+# ------------------
+#     GUI TITLES    
+# ------------------
+# (Birbirlerinden farkl? isimlere sahip olmal?d?rlar.)
+
+categoriesTitle: '&9Kategoriler'
+itemsTitle: '&9E?yalar'
+sellItemTitle: '&9E?ya Sat'
+buyItemTitle: '&9E?ya Al'
+
+# ------------------
+#  GUI BUTTON LORES 
+# ------------------
+
+# Items Menu
+itemLore:
+    - '&2(Sol T?k) &aAl?m: &e{BUY_COST}'
+    - '&2(Sa? T?k) &aSat?m: &e{SELL_COST}'
+buyClosed: '&cDevred???'
+sellClosed: '&cDevred???'
+mainMenuLore:
+    - '&fAna men?ye d?n.'
+nextPageLore:
+    - '&fSonraki sayfaya git.'
+previousPageLore:
+    - '&f?nceki sayfaya git.'
+
+# Sell / Buy - Menu
+piecePrefix: '&aTanesi: &e'
+totalPrefix: '&aHepsi: &e'
+
+# ------------------
+#  GUI BUTTON NAMES 
+# ------------------
+
+# Sell / Buy - Menu
+accept: '&4Kabul Et'
+shopMenuBack: '&4Vazge?'
+
+# Items Menu
+back: '&9Geri D?n'
+page: '&9Sayfa'
+mainMenu: '&9Ana Men?'
+previousPage: '&9?nceki Sayfa'
+nextPage: '&9Sonraki Sayfa'
+
+# --------------------------
+#  ADMIN PANEL - GUI TITLES 
+# --------------------------
+# (Birbirlerinden farkl? isimlere sahip olmal?d?rlar.)
+
+adminMainMenuTitle: '&9&lY?netici Men?s?'
+editCategoriesTitle: '&9Katagorileri D?zenle'
+editCategoryTitle: '&9Katagoriyi D?zenle'
+addItemToCategoryTitle: '&9E?ya Ekle'
+editItemTitle: '&9E?yay? D?zenle'
+
+# --------------------------------
+#  ADMIN PANEL - GUI BUTTON LORES 
+# --------------------------------
+
+# Main Menu
+reloadLore: 
+    - '&4Eklentiyi yenilemek'
+    - '&4i?in t?klayabilirsin.'
+categoriesLore:
+    - '&2Kategoriler men?s?n?'
+    - '&2a?mak i?in t?klayabilirsin.'
+creatorsLore:
+    - '&6Pikod taraf?ndan yap?ld?!'
+    - '&6Daha fazla bilgi almak i?in t?kla...'
+
+# Categories Menu
+panelCategoryLore:
+    - '&2Sa? T?k:&a Katagoriyi d?zenle'
+    - '&2Sol T?k:&a Kategoriye e?ya ekle'
+ 
+# Add Item Menu
+panelItemLore:
+    - '&2D?zenlemek i?in t?kla!'
+    - '&aAl??: &e{BUY_COST}'
+    - '&aSat??: &e{SELL_COST}'
+panelMainMenuLore:
+    - '&fAna men?ye d?n.'
+panelPreviousPageLore:
+    - '&f?nceki sayfaya git.'
+panelNextPageLore:
+    - '&fSonraki sayfaya git.'
+panelPageLore:
+    - '&fHangi sayfa da'
+    - '&fbulundu?unu g?rebilirsin.'
+
+# Edit Category Menu
+decorationEnabled: '&aAktif'
+decorationDisabled: '&cDevred???'
+editCategory_DeleteLore:
+    - '&cKatagoriyi silmek'
+    - '&c??in t?klayabilirsin.'
+editCategory_BackLore:
+    - '&c?nceki sayfaya geri'
+    - '&cd?nmek i?in t?kla.'
+editCategory_PermissionLore:
+    - '&cYetki: &4{PERMISSION}'
+    
+# Add Item Menu
+panelSellClosed: '&cDevred???'
+panelBuyClosed: '&cDevred???'
+
+# Edit Item Menu
+editItem_BackLore:
+    - '&c?nceki sayfaya geri'
+    - '&cd?nmek ??in t?kla.'
+editItem_DeleteLore:
+    - '&cKatagorideki e?yay?'
+    - '&csilmek i?in t?kla.'
+editItem_SetBuyCost:
+    - '&cAl?? fiyat?n?'
+    - '&cayarlamak i?in t?kla.'
+editItem_SetSellCost:
+    - '&cSat?? fiyat?n?'
+    - '&cayarlamak i?in t?kla.'
+editItem_StackSizeLore:
+    - '&aStack B?y?kl???: &2{STACK_SIZE}'
+    - '&aDe?i?tirmek i?in t?kla!'
+
+# --------------------------------
+#  ADMIN PANEL - GUI BUTTON NAMES 
+# --------------------------------
+
+# Main Menu
+mainMenu_Reload: '&c&lEklentiyi Yenile'
+mainMenu_Categories: '&a&lKatagori Ekle veya Sil'
+mainMenu_Creators: '&e&lEklenti Yap?mc?s?'
+
+# Edit Category Menu
+editCategory_IsDecoration: '&7Dekorasyon Olsun'
+editCategory_Delete: '&4Sil'
+editCategory_CategoryId: '&aKatagori ID'
+editCategory_Permission: '&7Yetki Belirle'
+editCategory_ItemCount: '&aE?ya Say?s?'
+editCategory_Back: '&4Geri D?n'
+
+# Add Item Menu
+addItem_PreviousPage: '&9?nceki Sayfa'
+addItem_NextPage: '&9Sonraki Sayfa'
+addItem_Page: '&9Sayfa'
+addItem_MainMenu: '&9Ana Men?'
+addItem_CategoryId: '&9Katagori ID'
+addItem_ItemCount: '&9E?ya Miktar?'
+
+# Edit Item Menu
+editItem_Back: '&4Geri D?n'
+editItem_Delete: '&4Sil'
+editItem_BuyCost: '&aAl?? Fiyat? Ayarla &2({COST})'
+editItem_SellCost: '&aSat?? Fiyat? Ayarla &2({COST})'
+editItem_SellDisabled: 'Devred???'
+editItem_BuyDisabled: 'Devred???'
+editItem_stackSize: '&7Stack B?y?kl???'
+
+# --------------------------------
+#            HELP MENU
+# --------------------------------
+
+helpMenu:
+    - '&e--------- &lYARDIM &e---------'
+    - '&a/vs gui: &7Admin GUI''yi  a?.'
+    - '&a/vs reload: &7Eklentiyi yenile.'
+    - '&a/vs help: &7Komutlar? g?ster.'
+    - '&e------------------------------'

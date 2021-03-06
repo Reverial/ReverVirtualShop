@@ -1,0 +1,31 @@
+name: ReverVirtualShop
+version: ${project.version}
+description: Virtual Shop plugin (with Admin GUI)
+authors: [Pikod, DoreK]
+softdepend: [Vault]
+main: me.pikod.main.VirtualShop
+api-version: 1.13
+website: reverial.net
+commands:
+    virtualshop:
+        description: Otwiera panel adminia
+        aliases: [vs]
+        usage: /vs
+    shop:
+        description: Otwiera sklep
+        aliases: [shop, market]
+        usage: /shop
+        permission: virtualshop.shop
+    sell:
+        description: Sprzedaje przedmiot
+        aliases: [sat]
+        usage: "/sell <all | hand>"
+permissions:
+    virtualshop.manage:
+        description: Admin panel permission.
+    virtualShop.shop:
+        description: Shop open permission.
+        default: true
+    virtualshop.sell:
+        description: Sell hand/all command permission.
+        default: true
