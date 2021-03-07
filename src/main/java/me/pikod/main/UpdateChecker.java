@@ -22,7 +22,8 @@ public class UpdateChecker {
 	        if(plugin.getDescription().getVersion().equals(newVersion)) {
 	        	hasUpdate = false;
 	        }else {
-	        	hasUpdate = true;
+	        	//hasUpdate = true;
+				hasUpdate = false;
 	        }
 		}catch(Exception er) {
 			Bukkit.getLogger().warning("&cCould not check to VirtualShop updates!");

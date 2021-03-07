@@ -96,11 +96,11 @@ public class VirtualShop extends JavaPlugin {
 				
 				@Override
 				public void run() {
-						//getLogger().warning("Founded new version! Download: https://www.spigotmc.org/resources/74496/");
-						//for(Player player : Bukkit.getOnlinePlayers()) {
-						//	if(player.isOp())
-						//		player.sendMessage(f.autoLang("newUpdates"));
-						//}
+						getLogger().warning("Founded new version! Download: https://www.spigotmc.org/resources/74496/");
+						for(Player player : Bukkit.getOnlinePlayers()) {
+							if(player.isOp())
+								player.sendMessage(f.autoLang("newUpdates"));
+						}
 					
 				}
 			}, 30L);
