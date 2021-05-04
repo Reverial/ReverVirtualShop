@@ -562,13 +562,13 @@ public class ActionHandler implements Listener {
 						totalAmount -= stackSize;
 						ItemStack ver = verilecekItem.clone();
 						ver.setAmount(stackSize);
-						player.getWorld().dropItem(player.getLocation(), verilecekItem);
+						player.getWorld().dropItem(player.getLocation(), ver);
 						//playerInventory.addItem(ver);
 					}
 					if(totalAmount != 0) {
 						ItemStack ver = verilecekItem.clone();
 						ver.setAmount(totalAmount);
-						player.getWorld().dropItem(player.getLocation(), verilecekItem);
+						player.getWorld().dropItem(player.getLocation(), ver);
 						//playerInventory.addItem(ver);
 					}
 					String msg = f.autoLang("successBuy");
