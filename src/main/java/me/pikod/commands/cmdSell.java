@@ -30,7 +30,7 @@ public class cmdSell implements CommandExecutor{
 					return true;
 				}else {
 					if(args[0].equals("all")) {
-						long verilecekPara = 0;	
+						long verilecekPara = 0;
 						HashMap<Seller.SellableItem, Double> selledList = new HashMap<Seller.SellableItem, Double>();
 						Player player = (Player) sender;
 						Inventory inv = player.getInventory();
@@ -44,7 +44,6 @@ public class cmdSell implements CommandExecutor{
 										Double d = selledList.get(s);
 										if(d==null) d=0d;
 										selledList.put(s, d+x);
-										
 										inv.setItem(i, null);
 									}
 								}

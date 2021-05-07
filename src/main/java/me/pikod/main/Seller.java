@@ -8,6 +8,7 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.Damageable;
 
 public class Seller {
 	private static List<SellableItem> sellableItems = new ArrayList<SellableItem>();
@@ -96,8 +97,6 @@ public class Seller {
 		
 		public boolean itemEquals(ItemStack i) {
 			if(!i.getType().equals(item.getType())) return false;
-			if(i.getDurability() != item.getDurability()) return false;
-			if(!i.getData().equals(item.getData())) return false;
 			if(item.hasItemMeta()) {
 				if(item.getItemMeta().hasDisplayName()) {
 					if(!item.getItemMeta().getDisplayName().equals(i.getItemMeta().getDisplayName())) return false;
@@ -108,6 +107,9 @@ public class Seller {
 				if(item.getItemMeta().hasEnchants()) {
 					if(!item.getItemMeta().getEnchants().equals(i.getEnchantments())) return false;
 				} else if(i.getItemMeta().hasEnchants()) return false;
+				if(item.getItemMeta() instanceof Damageable && i.getItemMeta() instanceof Damageable) {
+					if(((Damageable) item.getItemMeta()).getDamage() != ((Damageable) i.getItemMeta()).getDamage()) return false;
+				}
 			}else if(i.hasItemMeta()) return false;
 			return true;
 		}
